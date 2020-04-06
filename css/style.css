@@ -14,7 +14,7 @@ header{
 nav{
   width: 1000px;
   height: 60px;
-  background-color: #30B3B3;
+  background-color: ##808080;
 
 }
 #center{
@@ -23,7 +23,7 @@ nav{
 main{
   height:400px;
   width:800px;
-  background-color: white;
+  background-color: #A9A9A9;
 }
 aside{
   height:400px;
