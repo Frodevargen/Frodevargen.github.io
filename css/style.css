@@ -1,50 +1,72 @@
+* {
+  margin: 0;
+  padding:0;
+}
+
+
 #wrapper{
   height: 800px;
-  width:1000px;
-  background-color: pink;
-  margin-left: auto;
-  margin-right: auto;
+  width:1903px;
+  background-color: rgb(112,128,144);
+  margin-left: -8px;
+  margin-right: -8px;
+  margin: 0 auto;
+
+
 }
 header{
-  width: 1000px;
-  height: 140px;
-  background-color: ##A9A9A9;
+  width: 1903px;
+  height: 40px;
+  background-color: rgb(47,79,79);
 
 }
 nav{
-  width: 1000px;
+  width: 1903px;
   height: 60px;
-  background-color: ##808080;
+  background-color: rgb(47,79,79);
 
 }
 #center{
   display:flex;
 }
 main{
-  height:400px;
-  width:800px;
+  height:500px;
+  width:1903px;
   background-color: #A9A9A9;
 }
 aside{
-  height:400px;
-  width:100px;
-  background-color: purple;
+  height:500px;
+  width:200px;
+  background-color: rgb(112,128,144);
 }
 footer{
-  height: 200px;
-  width: 1000px;
-  background-color: green;
+  height: 146px;
+  width: 1903px;
+  background-color: rgb(47,79,79);
 
 
 }
 
 /*________  formatering av länkar ______________________*/
 
+h1{
+  font-family: monospace;
+  font-size: 20px;
+  color: Black;
+  z-index: 1;
+  padding-left: 5px;
+
+}
+
+z{
+  padding-left: 5px;
+}
+
 a{
 
   color: black;
   font-family: monospace;
-  font-size: 40px;
+  font-size: 20px;
 }
 
 
@@ -62,4 +84,8 @@ a:hover {
 
 a:active {
   text-decoration: underline;
+}
+.img-logo {
+  width: 400px;
+  height: 250px;
 }
