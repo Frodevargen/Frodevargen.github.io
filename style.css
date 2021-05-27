@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+
+body,html{
+  height: 100%;
+  margin: 0;
+  font-family:"Ubuntu", sans-serif;
+  line-height: 180%;
+  color: #666;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+#navy{
+  width: 100%;
+  height:7%;
+  color: darkgrey;
+  display: flex;
+  align-items: center;
+  z-index: 10000000;
+position: fixed;
+
+}
+#navy2{
+  background: black;
+  width: 100%;
+  height:7%;
+  position: fixed;
+  z-index: 1;
+  opacity: 0.75;
+}
+.bar{
+
+  margin-left: 2%;
+
+}
+.portal a{
+  text-decoration: none;
+  text-decoration-color: darkgrey;
+  text-shadow: none;
+  color: darkgrey;
+}
+.portal{
+  margin-left: 5%;
+
+}
+#portal1{
+  margin-left: 50%;
+}
+
+.parallax1{
+  background: black;
+  min-height: 100%;
+  background-color: black;
+  z-index: 100;
+}
+.parallax2{
+  background: url(img/Second.jpg);
+  min-height: 60%;
+}
+.parallax3{
+  background: url(img/third.jpg);
+  min-height: 40%;
+}
+.parallax4{
+  background: url(img/6.jpg);
+  min-height: 100%;
+}
+.parralax1{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.parallax2, .parallax3, .parallax4{
+  position: relative;
+  opacity: 0.75;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.heading{
+  position: absolute;
+  color: #fff;
+  font-size: 550%;
+  top: 38%;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-shadow: 200px 200px 250px #000;
+  z-index: 400;
+}
+.heading-sm{
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  color: #fff;
+  font-size: 250%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-shadow: 0 0 10px #000;
+}
+.two-col{
+  float: left;
+  width: 42%;
+  padding: 0 4%;
+  text-align: left;
+}
+.sec{
+  overflow: auto;
+  padding: 50px 80px;
+}
+.dark{
+  overflow: auto;
+  padding: 50px 80px;
+  background-color: #323232;
+  color: #f2f2f2;
+}
+section
+{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section:before
+{
+content: '';
+position: absolute;
+bottom: 0px;
+width: 100%;
+height:100px;
+background: linear-gradient(to top, blue, transparent);
+z-index: 10000;
+}
+section:after
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  z-index: 10000;
+  background: darkturquoise;
+  mix-blend-mode: color;
+
+}
+section img
+{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  pointer-events: none;
+
+}
+#text
+{
+  position: relative;
+  color: #fff;
+  font-size: 10em;
+  z-index: 41;
+  margin-top: -24%;
+}
+#road
+{
+  z-index: 20;
+}
+#mountain{
+  width: 80%;
+  height: 80%;
+  margin-top: 300px;
+  margin-left: 10%;
+  z-index: 30;
+}
+#moon{
+  opacity: 0.1;
+  z-index: 1;
+}
+
+
+@media (max-width: 958px) {
+  .heading{
+    font-size: 250%;
+  }
+  .heading-sm{
+    font-size: 180%;
+  }
+  .two-col{
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+}
