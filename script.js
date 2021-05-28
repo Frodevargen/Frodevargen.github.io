@@ -8,16 +8,19 @@ window.addEventListener('scroll', function(){
 var currentcolor = localStorage.getItem('color');
 if(currentcolor=="red"){
   document.documentElement.style.setProperty("--color","red");
-  console.log("FUck Im RED")
+  console.log("IM RED")
   document.documentElement.style.setProperty("--color2","darkturquoise");
 
 }
+
+
 let btn1 = document.getElementById('btn1');
+btn1.style.display='inline';
 btn1.addEventListener('click', function() {
   switch (currentcolor) {
     case "darkturquoise":
     document.documentElement.style.setProperty("--color","red");
-    console.log("FUck Im RED")
+    console.log("Im RED")
     document.documentElement.style.setProperty("--color2","darkturquoise");
     currentcolor = "red";
     localStorage.setItem('color',currentcolor);
@@ -25,7 +28,7 @@ btn1.addEventListener('click', function() {
 
     case "red":
       document.documentElement.style.setProperty("--color","darkturquoise");
-      console.log("FUck im Blue")
+      console.log("Im Blue")
       document.documentElement.style.setProperty("--color2","red");
       currentcolor = "darkturquoise";
       localStorage.setItem('color',currentcolor);

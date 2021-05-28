@@ -29,6 +29,7 @@ padding: 0;
   background-color: var(--color2,red);
   position:  relative;
   margin-left: 15px;
+  display: none;
 }
 ::-webkit-scrollbar {
   width: 10px;
