@@ -16,7 +16,7 @@ nav{
   color: darkgrey;
   display: flex;
   align-items: center;
-  z-index: 10000000;
+  z-index: 150000;
 position: fixed;
 padding: 0;
 
@@ -57,6 +57,9 @@ padding: 0;
   position: fixed;
   z-index: 1;
   opacity: 0.75;
+}
+#moniter{
+  margin-left: 2%;
 }
 .bar{
 
@@ -124,7 +127,7 @@ footer{
   color: darkgrey;
 }
 .portal{
-  margin-left: 5%;
+  margin-right: 5%;
 
 }
 #portal1{
@@ -185,7 +188,7 @@ footer{
   letter-spacing: 5px;
   text-shadow: 0 0 10px #000;
 }
-.two-col{
+article{
   float: left;
   width: 42%;
   padding: 0 4%;
@@ -277,7 +280,7 @@ section img
   .heading-sm{
     font-size: 180%;
   }
-  .two-col{
+  article{
     width: 100%;
     padding: 0;
     text-align: center;
