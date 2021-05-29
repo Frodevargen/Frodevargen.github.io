@@ -39,4 +39,4 @@ btn1.addEventListener('click', function() {
   }
 
 });
-//This is all thanks to Keylime Pi#5573 a real fuqing gamer
+//This is all thanks to Keylime Pi#5573 a real gamer
