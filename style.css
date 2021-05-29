@@ -19,7 +19,6 @@ nav{
   z-index: 150000;
 position: fixed;
 padding: 0;
-
 }
 .btn {
   height: 20px;
@@ -249,14 +248,6 @@ section img
   pointer-events: none;
 
 }
-#text
-{
-  position: relative;
-  color: #fff;
-  font-size: 10em;
-  z-index: 41;
-  margin-top: -24%;
-}
 #build1
 {
   z-index: 20;
@@ -266,7 +257,7 @@ section img
   height: 80%;
   margin-top: 300px;
   margin-left: 10%;
-  z-index: 30;
+  z-index: 40;
 }
 #codepass{
   opacity: 0.1;
