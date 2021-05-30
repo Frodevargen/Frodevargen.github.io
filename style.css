@@ -59,12 +59,8 @@ padding: 0;
   opacity: 0.75;
 }
 #moniter{
-  margin-left: 2%;
-}
-.bar{
-
-  margin-left: 2%;
-
+  margin-right: 40%;
+  margin-left: 2%
 }
 
 footer{
@@ -125,6 +121,8 @@ footer{
   text-decoration-color: darkgrey;
   text-shadow: none;
   color: darkgrey;
+
+
 }
 .web2link{
   color: #41aaaa;
@@ -134,11 +132,7 @@ footer{
   text-decoration: underline;
 }
 .portal{
-  margin-right: 5%;
-
-}
-#portal1{
-  margin-left: 50%;
+  margin-right: 2%;
 }
 
 .parallax1{
@@ -270,7 +264,9 @@ section img
   opacity: 0.1;
   z-index: 1;
 }
-
+h1{
+  font-size: 150%
+}
 
 @media (max-width: 958px) {
   .heading{
@@ -283,6 +279,13 @@ section img
     width: 100%;
     padding: 0;
     text-align: center;
+  }
+  #moniter{
+    margin-right: 15%;
+
+  }
+  #btn1{
+    margin-left: 130px;
   }
 
 }
