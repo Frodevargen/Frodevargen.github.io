@@ -289,3 +289,15 @@ h1{
   }
 
 }
+@media (max-width: 550px) {
+h1{
+  font-size: 100%;
+}
+#btn1{
+  margin-left: 100px;
+}
+#moniter{
+  margin-right: 20%;
+
+}
+}
