@@ -120,11 +120,18 @@ footer{
 .pinterest{
   background-position: -159px 3px;
 }
- a{
+ .weblink{
   text-decoration: none;
   text-decoration-color: darkgrey;
   text-shadow: none;
   color: darkgrey;
+}
+.web2link{
+  color: #41aaaa;
+  text-shadow: none;
+  text-decoration-color: #41aaaa;
+  text-decoration: none;
+  text-decoration: underline;
 }
 .portal{
   margin-right: 5%;
