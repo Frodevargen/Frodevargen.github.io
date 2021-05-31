@@ -292,10 +292,12 @@ h1{
 }
 @media (max-width: 550px) {
 h1{
-  font-size: 100%;
+  font-size: 80%;
 }
 #btn1{
   margin-left: 85px;
+  width: 30px;
+  height: 15px;
 }
 #moniter{
   margin-right: 20%;
